@@ -6,6 +6,14 @@ The goal is to extract attributes (eg. positive or negative opinions about a sub
 
 For this project the information taken into account are tweets that I have extracted through the Twitter API and stored on the cloud (Google BigQuery). The dataset contains millions of results including emoticons to express emotions like happiness, sadness, anger and more. Emotions can be positive, negative as well as neutral. For example, :) in a tweet indicates that the tweet contains positive sentiment and :( indicates that the tweet contains negative sentiment.
 
+| Emoticons mapped to :)  | Emoticons mapped to :( |
+| ------------- | ------------- |
+:) | :(
+:-) | :-(
+: ) | : (
+:D |
+=)  |
+
 Data:
 - Tweets - generally, tweets are not as thoughtfully composed as reviews, yet, they still offer companies an additional avenue to gather feedback.
 - Sentiment: “a personal positive or negative feeling.”
