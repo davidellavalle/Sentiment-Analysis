@@ -48,12 +48,16 @@ Once downloaded the data needed to be cleaned before applying the deep learning 
 - Remove stopwords: commonly used word (such as “the”, “a”, “an”, “in”) that create a lot of noise.
 - Remove Urls
 - Remove digits.
-- Tokenizations: splitting sentences into words. This is considered the firs step for stemming and lemmatization.
+- [Tokenizations](https://www.analyticsvidhya.com/blog/2019/07/how-get-started-nlp-6-unique-ways-perform-tokenization/): splitting sentences into words. This is considered the firs step for stemming and lemmatization.
 - Tokenization is the process of demarcating and possibly classifying sections of a string of input characters. The resulting tokens are then passed on to some other form of processing. The process can be considered a sub-task of parsing input. [Wikipedia](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization).
 - STEMMING and LEMMATIZATION  
 Text normalization techniques within the field of Natural language Processing (NLP) that are used to prepare text, words, and documents for further processing.
 Lemmatize and stem both generate the root form of the word except stem may generate a word that doesn’t exist in the dictionary therefore lemmatization is used more widely than stemming. The core principal behind tese 2 approaches is that we need to convert all words to their base form in order to reduce the number of unique words.
 Stemming: method for cataloging related words; it essentially chops off letters from the end until the stem is reached (eg boater, boating, boats -> "Boat")
+
+
+To achieve several of these results I have used the **Regular Expressions (Regex)**: a special character sequence that helps matching or finding other strings or set of strings using that sequence as a pattern. 
+
 
 ## NLP
 
