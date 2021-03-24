@@ -37,15 +37,15 @@ Data preprocessing is a required first step before any machine learning machiner
 Of all data, text is the most unstructured form and this implies a lot of cleaning.  
 The following pre-processing steps help convert noise from high dimensional features to the low dimensional space to obtain as much accurate information as possible from the text.
 
-Once downloaded the data needed a lot of cleaning:
+Once downloaded the data needed to be cleaned before applying the deep learning method and proceed with Sentiment Analysis:
 
 - Check on data structure
 - Remove null data: since I am using sentiment as target (the variable I will be predicting) I cannot have any null values so these are dropped, luckily no null values were present in the database.
 - Conversion of labeled classes (0 = negative, 2 = neutral, 4 = positive) to 0 and 1, drop neutral voncert positive
 - All string values to lower case
+**Data cleaning** 
+- Remove punctuations from dataset
 - Remove stopwords: commonly used word (such as “the”, “a”, “an”, “in”) that create a lot of noise.
-- Remove punctuations
-- Remove repeating characters
 - Remove Urls
 - Remove digits.
 - Tokenizations: splitting sentences into words. This is considered the firs step for stemming and lemmatization.
