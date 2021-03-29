@@ -26,6 +26,10 @@ To evaluate the performance of the models I used the following evaluation metric
 - Confusion matrix with plot
 - ROC Curve
 
+## Required tools and Applications
+
+- **Twitter developer account**: once approved I could use the Twitter API
+- **Google Cloud Platform Account**
 
 
 ## BigQuery
