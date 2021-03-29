@@ -29,12 +29,23 @@ To evaluate the performance of the models I used the following evaluation metric
 ## Required tools and Applications
 
 - **Twitter developer account**: once approved I could use the Twitter API
-- **Google Cloud Platform Account**
+- **Google Cloud Platform Account** with appropriate IAM permissions: Set new account 
+- Enable all required APIs: 
+* Cloud Pub/Sub API
+* Kubernetes Engine API
+* Cloud Dataproc API
+* BigQuery API
+- Create a Service Account (Adding all roles)
+- Create GKE cluster
+![image](https://user-images.githubusercontent.com/73824871/112852417-31d8d280-90ac-11eb-9239-388a174a60e9.png)
 
 
 ## BigQuery
 
-Twitter Api stored in a relational database in the cloud (Google BigQuery). 
+Twitter Api stored in a relational database in the cloud (Google BigQuery).
+
+[Create Dataset](https://cloud.google.com/bigquery/docs/datasets)
+[Create Table](https://cloud.google.com/bigquery/docs/tables)
 
 ## Data Preprocessing
 Data preprocessing is a required first step before any machine learning machinery can be applied, because the algorithms learn from the data and the learning outcome for problem solving heavily depends on the proper data needed to solve a particular problem.  
