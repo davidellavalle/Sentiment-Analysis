@@ -32,7 +32,7 @@ To evaluate the performance of the models I used the following evaluation metric
 I will need the *Consumer Key*, *Consumer Secret*, *Access Token* and *Access Token Secret*
 - **Google Cloud Platform Account** with appropriate IAM permissions  
 
-To retrieve Data from Twitter, store them on Google Cloud and run some analysis using BigQuery I used the setup flow provided by [GoogleCloudPlatform Github](https://github.com/GoogleCloudPlatform/kubernetes-bigquery-python/tree/master/pubsub#create-and-configure-a-google-cloud-platform-project)
+To setup the pipeline and collect Tweets from Twitter, store it on Google Cloud and run some analysis using BigQuery I used the setup flow provided at [GoogleCloudPlatform Github](https://github.com/GoogleCloudPlatform/kubernetes-bigquery-python/tree/master/pubsub#create-and-configure-a-google-cloud-platform-project)
 
 Some of the steps are summarized here below:
 - Create *Google Cloud Platform project**
@@ -46,12 +46,11 @@ Compute Engine API
 Google Cloud Storage JSON APIs**    
 - Create a **Service Account** (Adding all roles)
 - Set up a **PubSub topic** in the project
-- Create GKE cluster and assing it to the Service Account created
-- App configuration, his requires editing two Kubernetes .yaml config files ([bigquery-controller.yaml](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/bigquery-controller.yaml) and [twitter-stream.yaml](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/twitter-stream.yaml))
-
-##  [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/)
-
+- Create GKE ([Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/)) cluster and assing it to the Service Account created
 ![image](https://user-images.githubusercontent.com/73824871/112852417-31d8d280-90ac-11eb-9239-388a174a60e9.png)
+- App configuration, this requires editing two Kubernetes .yaml config files ([bigquery-controller.yaml](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/bigquery-controller.yaml) and [twitter-stream.yaml](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/twitter-stream.yaml))
+- Deployment of the app
+- Tweets are finally available on BigQuery for analysis
 
 ## BigQuery
 
