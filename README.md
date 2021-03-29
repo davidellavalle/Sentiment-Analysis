@@ -30,7 +30,7 @@ To evaluate the performance of the models I used the following evaluation metric
 
 - **Twitter developer account**: once approved I could use the Twitter API
 - **Google Cloud Platform Account** with appropriate IAM permissions: Set new account 
-- Enable all required APIs: 
+- Enable all required APIs:  
 **Cloud Pub/Sub API  
 Kubernetes Engine API  
 Cloud Dataproc API  
