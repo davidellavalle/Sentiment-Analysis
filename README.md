@@ -26,19 +26,32 @@ To evaluate the performance of the models I used the following evaluation metric
 - Confusion matrix with plot
 - ROC Curve
 
-## Required tools and Applications
+## Required tools, Applications and Process flow
 
-- **Twitter developer account**: once approved I could use the Twitter API
-- **Google Cloud Platform Account** with appropriate IAM permissions: Set new account 
+- [**Twitter developer account**](https://developer.twitter.com/en/apply-for-access): once approved I could use the Twitter API
+I will need the *Consumer Key*, *Consumer Secret*, *Access Token* and *Access Token Secret*
+- **Google Cloud Platform Account** with appropriate IAM permissions  
+
+To retrieve Data from Twitter, store them on Google Cloud and run some analysis using BigQuery I used the setup flow provided by [GoogleCloudPlatform Github](https://github.com/GoogleCloudPlatform/kubernetes-bigquery-python/tree/master/pubsub#create-and-configure-a-google-cloud-platform-project)
+
+Some of the steps are summarized here below:
+- Create *Google Cloud Platform project**
 - Enable all required APIs:  
 **Cloud Pub/Sub API  
-Kubernetes Engine API  
+Kubernetes Engine API    
 Cloud Dataproc API  
-BigQuery API**    
-- Create a Service Account (Adding all roles)
-- Create GKE cluster
-![image](https://user-images.githubusercontent.com/73824871/112852417-31d8d280-90ac-11eb-9239-388a174a60e9.png)
+BigQuery API  
+Cloud Storage API    
+Compute Engine API  
+Google Cloud Storage JSON APIs**    
+- Create a **Service Account** (Adding all roles)
+- Set up a **PubSub topic** in the project
+- Create GKE cluster and assing it to the Service Account created
+- App configuration, his requires editing two Kubernetes .yaml config files ([bigquery-controller.yaml] and [twitter-stream.yaml])
 
+##  [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/)
+
+![image](https://user-images.githubusercontent.com/73824871/112852417-31d8d280-90ac-11eb-9239-388a174a60e9.png)
 
 ## BigQuery
 
