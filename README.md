@@ -47,7 +47,7 @@ Google Cloud Storage JSON APIs**
 - Create a **Service Account** (Adding all roles)
 - Set up a **PubSub topic** in the project
 - Create GKE cluster and assing it to the Service Account created
-- App configuration, his requires editing two Kubernetes .yaml config files ([bigquery-controller.yaml] and [twitter-stream.yaml])
+- App configuration, his requires editing two Kubernetes .yaml config files ([bigquery-controller.yaml](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/bigquery-controller.yaml) and [twitter-stream.yaml]())
 
 ##  [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/)
 
