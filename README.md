@@ -52,12 +52,18 @@ Google Cloud Storage JSON APIs**
 - Deployment of the app
 - Tweets are finally available on BigQuery for analysis
 
+- Do not forget to shit down the replicated pods and cluster once you are done with it or you will get charged
+
 ## BigQuery
 
 Twitter Api stored in a relational database in the cloud (Google BigQuery).
 
 [Create Dataset](https://cloud.google.com/bigquery/docs/datasets)  
 [Create Table](https://cloud.google.com/bigquery/docs/tables)
+
+![image](https://user-images.githubusercontent.com/73824871/112867145-d8c46b00-90ba-11eb-91af-03c7356093a8.png)
+
+
 
 ## Data Preprocessing
 Data preprocessing is a required first step before any machine learning machinery can be applied, because the algorithms learn from the data and the learning outcome for problem solving heavily depends on the proper data needed to solve a particular problem.  
