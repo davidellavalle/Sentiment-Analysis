@@ -2,8 +2,10 @@
 
 The project is structured in 2 parts.
 The first couple of weeks were dedicated to extracting data from Twitter using a bunch of different tools and Applications, the process is shown in the below section ["Required tools, Applications and Process flow"](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#required-tools-applications-and-process-flow).  
-Finally almost 22 million different tweets were extracted and a first analysis was run using GoogleCloudPlatform applications like [BigQuery]( 
-Since this data was not labelled, therefore unuseful to train an algorithm to make predictions, and the labelling process of it would have taken a long time a second set of data was required to run my Sentiment Analysis. In the [Data](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data) section more information about it are provided.
+Finally almost 22 million different tweets were extracted and a first analysis was run using GoogleCloudPlatform applications like [BigQuery](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#bigquery) for SQL querries and DataStudio for visualizations.  
+
+Since this data was not labelled, therefore unuseful to train an algorithm to make predictions, and the labelling process of it would have taken a long time a second set of data was required to run my Sentiment Analysis. In the [Data](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data) section more information about it are provided.  
+This data was first preprocessed 
 
 Sentiment Analysis (also known as opinion mining or emotion AI) can be considered a tool within natural language processing that allows to identify, quantify, and study subjective information. It helps to detect the emotions, opinion, assessment, attitudes, and thus helps to understand the audience better. Several companies use this kinf of textual data to run semantic analysis and extract information about the view of people on thier products and services.
 
@@ -94,7 +96,7 @@ There are several tools to implement it (Spacy, NLTK, MBSP), here I have used NL
 - STEMMING and LEMMATIZATION  
 Text normalization techniques within the field of Natural language Processing (NLP) that are used to prepare text, words, and documents for further processing.
 Lemmatize and stem both generate the root form of the word except stem may generate a word that doesn’t exist in the dictionary therefore lemmatization is used more widely than stemming. The core principal behind these 2 approaches is that we need to convert all words to their base form in order to reduce the number of unique words.
-Stemming: process of reducing words to their word stem, base or root form. It essentially chops off letters from the end until the stem is reached (eg boater, boating, boats -> "Boat")
+Since Lemmatization between the 2 is probably a far better method I have only used that.
 
 To achieve several of these results I have used the **Regular Expressions (Regex)**: a special character sequence that helps matching or finding other strings or set of strings using that sequence as a pattern.  
 
