@@ -1,5 +1,8 @@
 # Sentiment-Analysis
 
+The project is structured in 2 parts.
+The first few weeks were dedicated to extracting data from Twitter using a bunch of different tools and Applications, the process is shown in the below section "Required tools, Applications and Process flow" 
+
 Sentiment Analysis (also known as opinion mining or emotion AI) can be considered a tool within natural language processing that allows to identify, quantify, and study subjective information. It helps to detect the emotions, opinion, assessment, attitudes, and thus helps to understand the audience better. Several companies use this kinf of textual data to run semantic analysis and extract information about the view of people on thier products and services.
 
 The goal is to extract attributes (eg. positive or negative opinions about a subject) from BigData, huge amount of data produced every day and use this attributes to classify the tweets released by the people.
