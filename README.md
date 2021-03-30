@@ -1,9 +1,9 @@
-# Sentiment-Analysis
+# Sentiment-Analysis on Big Data
 
 The project is structured in 2 parts.
 The first couple of weeks were dedicated to extracting data from Twitter using a bunch of different tools and Applications, the process is shown in the below section ["Required tools, Applications and Process flow"](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#required-tools-applications-and-process-flow).  
-Finally almost 22 million different tweets were extracted.  
-Since this data was not labelled therefore unuseful to train an algorithm to make predictions and the labelling process of it would have taken a long time a second set of data was required to run my Sentiment Analysis. In the [Data]( section more information about it are given.
+Finally almost 22 million different tweets were extracted and a first analysis was run using GoogleCloudPlatform applications like [BigQuery]( 
+Since this data was not labelled, therefore unuseful to train an algorithm to make predictions, and the labelling process of it would have taken a long time a second set of data was required to run my Sentiment Analysis. In the [Data](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data) section more information about it are provided.
 
 Sentiment Analysis (also known as opinion mining or emotion AI) can be considered a tool within natural language processing that allows to identify, quantify, and study subjective information. It helps to detect the emotions, opinion, assessment, attitudes, and thus helps to understand the audience better. Several companies use this kinf of textual data to run semantic analysis and extract information about the view of people on thier products and services.
 
@@ -11,7 +11,7 @@ The goal is to extract attributes (eg. positive or negative opinions about a sub
 
 ## Data
 
-For this project the information taken into account are tweets stored in training.1600000.processed.noemoticon.csv
+For this project the data taken into account are tweets stored in "training.1600000.processed.noemoticon.csv"
 It contains 1,600,000 tweets extracted using the twitter API. The dataset contains millions of results including emoticons to express emotions like happiness, sadness, anger and more. Emotions can be positive, negative as well as neutral. For example, :) in a tweet indicates that the tweet contains positive sentiment and :( indicates that the tweet contains negative sentiment.
 
 The dataset contains the following 6 fields:
@@ -71,7 +71,6 @@ Twitter Api stored in a relational database in the cloud (Google BigQuery).
 [Create Table](https://cloud.google.com/bigquery/docs/tables)
 
 ![image](https://user-images.githubusercontent.com/73824871/112867145-d8c46b00-90ba-11eb-91af-03c7356093a8.png)
-
 
 
 ## Data Preprocessing
