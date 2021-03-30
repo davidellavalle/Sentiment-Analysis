@@ -12,7 +12,7 @@ Sentiment Analysis (also known as opinion mining or emotion AI) can be considere
 The goal is to extract attributes (eg. positive or negative opinions about a subject) from BigData, huge amount of data produced every day and use this attributes to classify the tweets released by the people.
 
 <p align="center">
-  <![image](https://user-images.githubusercontent.com/73824871/113010113-e04a4980-9178-11eb-87ab-8f09a692a881.png)>
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/73824871/113010113-e04a4980-9178-11eb-87ab-8f09a692a881.png">
 </p>
 
 
