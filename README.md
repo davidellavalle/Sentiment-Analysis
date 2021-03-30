@@ -4,9 +4,20 @@ Sentiment Analysis (also known as opinion mining or emotion AI) can be considere
 
 The goal is to extract attributes (eg. positive or negative opinions about a subject) from BigData, huge amount of data produced every day and use this attributes to classify the tweets released by the people.
 
-For this project the information taken into account are tweets that I have extracted through the Twitter API and stored on the cloud (Google BigQuery). The dataset contains millions of results including emoticons to express emotions like happiness, sadness, anger and more. Emotions can be positive, negative as well as neutral. For example, :) in a tweet indicates that the tweet contains positive sentiment and :( indicates that the tweet contains negative sentiment.
+## Data
 
-| Emoticons mapped to :)  | Emoticons mapped to :( |
+For this project the information taken into account are tweets stored in training.1600000.processed.noemoticon.csv
+It contains 1,600,000 tweets extracted using the twitter API. The dataset contains millions of results including emoticons to express emotions like happiness, sadness, anger and more. Emotions can be positive, negative as well as neutral. For example, :) in a tweet indicates that the tweet contains positive sentiment and :( indicates that the tweet contains negative sentiment.
+
+The dataset contains the following 6 fields:
+- **label**: the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
+- **id**: The id of the tweet
+- **date**: the date of the tweet (Mon Apr 06 22:19:45 PDT 2009)
+- **flag**: The query (lyx). If there is no query, then this value is NO_QUERY.
+- **username**: the user that tweeted (_TheSpecialOne_)
+- **text**: the text of the tweet (my whole body feels itchy and like its on fire)
+
+| Emoticons mapped to positive | Emoticons mapped to negative|
 | ------------- | ------------- |
 :) | :(
 :-) | :-(
@@ -14,17 +25,10 @@ For this project the information taken into account are tweets that I have extra
 :D |
 =)  |
 
-Data:
 - Tweets - generally, tweets are not as thoughtfully composed as reviews, yet, they still offer companies an additional avenue to gather feedback.
 - Sentiment: “a personal positive or negative feeling.”
 - Labelled data in order to train a classifier
 - Limited to 140 characters of text  
-
-To evaluate the performance of the models I used the following evaluation metrics:
-
-- Accuracy and Kappa
-- Confusion matrix with plot
-- ROC Curve
 
 ## Required tools, Applications and Process flow
 
@@ -88,9 +92,18 @@ Text normalization techniques within the field of Natural language Processing (N
 Lemmatize and stem both generate the root form of the word except stem may generate a word that doesn’t exist in the dictionary therefore lemmatization is used more widely than stemming. The core principal behind these 2 approaches is that we need to convert all words to their base form in order to reduce the number of unique words.
 Stemming: process of reducing words to their word stem, base or root form. It essentially chops off letters from the end until the stem is reached (eg boater, boating, boats -> "Boat")
 
+To achieve several of these results I have used the **Regular Expressions (Regex)**: a special character sequence that helps matching or finding other strings or set of strings using that sequence as a pattern.  
 
-To achieve several of these results I have used the **Regular Expressions (Regex)**: a special character sequence that helps matching or finding other strings or set of strings using that sequence as a pattern. 
+To evaluate the performance of the models I used the following evaluation metrics:
 
+- Accuracy and Kappa
+- Confusion matrix with plot
+- ROC Curve
+
+## Plots
+
+Positive and negative wordlcoud - [instructions followed](https://re-thought.com/creating-wordclouds-in-python/)
+distribution of Tweets - Positive vs Negative 
 
 ## NLP
 
