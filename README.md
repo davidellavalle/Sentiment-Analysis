@@ -5,16 +5,16 @@ The first couple of weeks were dedicated to extracting data from Twitter using a
 Finally almost 22 million different tweets were extracted and a first analysis was run using GoogleCloudPlatform applications like [BigQuery](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#bigquery) for SQL querries and DataStudio for visualizations.  
 
 Since this data was not labelled, therefore unuseful to train an algorithm to make predictions, and the labelling process of it would have taken a long time a second set of data was required to run my Sentiment Analysis. In the [Data](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data) section more information about it are provided.  
-This data was first [preprocessed](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data-preprocessing) and cleaned to be then ready for training my deep learning model.  
-
-Sentiment Analysis (also known as opinion mining or emotion AI) can be considered a tool within natural language processing that allows to identify, quantify, and study subjective information. It helps to detect the emotions, opinion, assessment, attitudes, and thus helps to understand the audience better. Several companies use this kinf of textual data to run semantic analysis and extract information about the view of people on thier products and services.
-
-The goal is to extract attributes (eg. positive or negative opinions about a subject) from BigData, huge amount of data produced every day and use this attributes to classify the tweets released by the people.
+This data was first [preprocessed](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data-preprocessing) and cleaned to be then ready for training the deep learning model.  
 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/73824871/113010113-e04a4980-9178-11eb-87ab-8f09a692a881.png">
 </p>
 
+## NPL - Natural 
+Sentiment Analysis (also known as opinion mining or emotion AI) can be considered a tool within natural language processing that allows to identify, quantify, and study subjective information. It helps to detect the emotions, opinion, assessment, attitudes, and thus helps to understand the audience better. Several companies use this kinf of textual data to run semantic analysis and extract information about the view of people on thier products and services.
+
+The goal is to extract attributes (eg. positive or negative opinions about a subject) from BigData, huge amount of data produced every day and use this attributes to classify the tweets released by the people.
 
 
 ## Data
