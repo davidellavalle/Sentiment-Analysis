@@ -8,7 +8,7 @@ Since this data was not labelled, therefore unuseful to train an algorithm to ma
 This data was first [preprocessed](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data-preprocessing) and cleaned to be then ready for training the deep learning model.  
 
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/73824871/113128143-c9a7ff00-9219-11eb-846f-9d1afa57a719.png">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/73824871/113128318-f825da00-9219-11eb-9cdf-e4f2241eeea1.png">
 </p>
 
 ## NPL - Natural 
