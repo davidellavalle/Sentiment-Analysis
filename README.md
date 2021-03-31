@@ -20,8 +20,8 @@ The goal is to extract attributes (eg. positive or negative opinions about a sub
 
 ## Data
 
-For this project the data taken into account are tweets stored in "training.1600000.processed.noemoticon.csv"  
-It contains 1,600,000 tweets extracted using the twitter API. The dataset contains millions of results including emoticons to express emotions like happiness, sadness, anger and more. Emotions can be positive, negative as well as neutral. For example, :) in a tweet indicates that the tweet contains positive sentiment and :( indicates that the tweet contains negative sentiment.  
+Even though I was able to retrieve 22 million Tweets from the platform Twitter, the data was unlabeled and a manual labeling process would have taken probably weeks before completion. To overcome this issue I was able to find on the Kaggle a database ["training.1600000.processed.noemoticon.csv"](https://www.kaggle.com/kazanova/sentiment140) with all necessary features and label I needed to complete my project.  
+The dataset contains 1,600,000 results including emoticons to express emotions like happiness, sadness, anger and more. Emotions can be positive, negative as well as neutral. For example, :) in a tweet indicates that the tweet contains positive sentiment and :( indicates that the tweet contains negative sentiment.  
 
 The dataset contains the following 6 fields:  
 - **label**: the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
