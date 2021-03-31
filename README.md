@@ -5,13 +5,14 @@ The first couple of weeks were dedicated to extracting data from Twitter using a
 Finally almost 22 million different tweets were extracted and a first analysis was run using GoogleCloudPlatform applications like [BigQuery](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#bigquery) for SQL querries and DataStudio for visualizations.  
 
 Since this data was not labelled, therefore unuseful to train an algorithm to make predictions, and the labelling process of it would have taken a long time a second set of data was required to run my Sentiment Analysis. In the [Data](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data) section more information about it are provided.  
-This data was first [preprocessed](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data-preprocessing) and cleaned to be then ready for training the deep learning model.  
+This data was first [preprocessed](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data-preprocessing) and cleaned to be then ready for training the deep learning model in form of a Sentiment Analysis.    
 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/73824871/113128318-f825da00-9219-11eb-9cdf-e4f2241eeea1.png">
 </p>
 
-## NPL - Natural 
+## NLP - Natural Processing Language 
+
 Sentiment Analysis (also known as opinion mining or emotion AI) can be considered a tool within natural language processing that allows to identify, quantify, and study subjective information. It helps to detect the emotions, opinion, assessment, attitudes, and thus helps to understand the audience better. Several companies use this kinf of textual data to run semantic analysis and extract information about the view of people on thier products and services.
 
 The goal is to extract attributes (eg. positive or negative opinions about a subject) from BigData, huge amount of data produced every day and use this attributes to classify the tweets released by the people.
@@ -103,12 +104,6 @@ Lemmatize and stem both generate the root form of the word except stem may gener
 Since Lemmatization between the 2 is probably a far better method I have only used that.  
 
 To achieve several of these results I have used the **Regular Expressions (Regex)**: a special character sequence that helps matching or finding other strings or set of strings using that sequence as a pattern.  
-
-To evaluate the performance of the models I used the following evaluation metrics:  
-
-- Accuracy and Kappa
-- Confusion matrix with plot
-- ROC Curve
 
 ## Plots
 
