@@ -88,7 +88,7 @@ The following pre-processing steps help convert noise from high dimensional feat
 
 - Check on data structure
 - Remove null data: since I am using sentiment as target (the variable I will be predicting) I cannot have any null values so these are dropped, luckily no null values were present in the database.
-- Conversion of labeled classes (0 = negative, 2 = neutral, 4 = positive) to 0 and 1, drop neutral voncert positive
+- Conversion of labeled classes (0 = negative, 2 = neutral, 4 = positive) to 0 and 1, drop neutral  
 - All string values to lower case
 **Data cleaning** 
 - Remove punctuations from dataset
@@ -114,7 +114,5 @@ To evaluate the performance of the models I used the following evaluation metric
 
 Positive and negative wordlcoud - [How to create a wordcloud](https://re-thought.com/creating-wordclouds-in-python/)  
 Distribution of Tweets in dataset - Positive vs Negative 
-
-## NLP
 
 
