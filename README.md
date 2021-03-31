@@ -112,8 +112,8 @@ To evaluate the performance of the models I used the following evaluation metric
 
 ## Plots
 
-Positive and negative wordlcoud - [instructions followed](https://re-thought.com/creating-wordclouds-in-python/)  
-Distribution of Tweets - Positive vs Negative 
+Positive and negative wordlcoud - [How to create a wordcloud](https://re-thought.com/creating-wordclouds-in-python/)  
+Distribution of Tweets in dataset - Positive vs Negative 
 
 ## NLP
 
