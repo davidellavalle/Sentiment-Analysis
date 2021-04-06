@@ -20,7 +20,7 @@ The goal is to extract attributes (eg. positive or negative opinions about a sub
 
 ## Data
 
-Even though I was able to retrieve 22 million Tweets from the platform Twitter, the data was unlabeled and a manual labeling process would have taken probably weeks before completion. To overcome this issue I was able to find on the Kaggle a database ["training.1600000.processed.noemoticon.csv"](https://www.kaggle.com/kazanova/sentiment140) with all necessary features and label I needed to complete my project.  
+Even though I was able to retrieve 22 million Tweets from the platform Twitter, the data was unlabeled and a manual labeling process would have taken a long time before completion. To overcome this issue I was able to find on the Kaggle a database ["training.1600000.processed.noemoticon.csv"](https://www.kaggle.com/kazanova/sentiment140) with all necessary features and label I needed to complete my project.  
 The dataset contains 1,600,000 results including emoticons to express emotions like happiness, sadness, anger and more. Emotions can be positive, negative as well as neutral. For example, :) in a tweet indicates that the tweet contains positive sentiment and :( indicates that the tweet contains negative sentiment.  
 
 The dataset contains the following 6 fields:  
@@ -74,13 +74,13 @@ Google Cloud Storage JSON APIs**
 
 ## BigQuery
 
-Twitter Api stored in a relational database in the cloud (Google BigQuery).  
+I stored the downloaded data ina  relation database on Google Cloud and then used BigQuery, a cloud data warehouse that enables SQL like queries, to run some analysis and prepare some smaller database for representation through Data Studio.
+Below some pictures referring to the creation of a dataset, table and performing queries on BigQuery.
 
 [Create Dataset](https://cloud.google.com/bigquery/docs/datasets)  
 [Create Table](https://cloud.google.com/bigquery/docs/tables)  
 
 ![image](https://user-images.githubusercontent.com/73824871/112867145-d8c46b00-90ba-11eb-91af-03c7356093a8.png)
-
 
 ## Data Preprocessing
 Data preprocessing is a required first step before any machine learning machinery can be applied, because the algorithms learn from the data and the learning outcome for problem solving heavily depends on the proper data needed to solve a particular problem.  
