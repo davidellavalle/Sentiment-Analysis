@@ -82,6 +82,19 @@ Below some pictures referring to the creation of a dataset, table and performing
 
 ![image](https://user-images.githubusercontent.com/73824871/112867145-d8c46b00-90ba-11eb-91af-03c7356093a8.png)
 
+## Data Studio
+
+This is an other free tool offered by Google that turns data into informative, easy to read, easy to share, and fully customizable dashboards and reports. Similar to Tableau.
+Here below are reported some basics visualization of the downloaded data.
+Tweets Distribution by language
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/73824871/113753166-143fe480-970e-11eb-9286-22e89953052e.png">
+</p>
+Map showing origin of Tweets 
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/73824871/113753285-36d1fd80-970e-11eb-9dec-9271f37fad20.png">
+</p>
+
 ## Data Preprocessing
 Data preprocessing is a required first step before any machine learning machinery can be applied, because the algorithms learn from the data and the learning outcome for problem solving heavily depends on the proper data needed to solve a particular problem.  
 Of all data, text is the most unstructured form and this implies a lot of cleaning.  
