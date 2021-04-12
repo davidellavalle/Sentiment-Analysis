@@ -69,8 +69,7 @@ Google Cloud Storage JSON APIs**
 - App configuration, this requires editing two Kubernetes .yaml config files ([bigquery-controller.yaml](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/bigquery-controller.yaml) and [twitter-stream.yaml](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/twitter-stream.yaml))
 - Deployment of the app
 - Tweets are finally available on BigQuery for analysis
-
-- Do not forget to shit down the replicated pods and cluster once you are done with it or you will get charged
+- Do not forget to shut down the replicated pods and cluster once you are done with it or you will get charged
 
 ## BigQuery
 
