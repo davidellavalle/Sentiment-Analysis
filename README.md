@@ -4,7 +4,7 @@ The project is structured in 2 parts.
 The first couple of weeks were dedicated to extracting data from Twitter using a bunch of different tools and Applications, the process is shown in the below section ["Required tools, Applications and Process flow"](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#required-tools-applications-and-process-flow).  
 Finally almost 22 million different tweets were extracted and a first analysis was run using GoogleCloudPlatform applications like [BigQuery](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#bigquery) for SQL queries and DataStudio for visualizations.  
 
-Since this data was not labelled, therefore unuseful to train an algorithm to make predictions, and the labelling process of it would have taken a long time a second set of data was required to run my Sentiment Analysis. In the [Data](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data) section more information about it are provided.  
+Since this data was not labelled, therefore unuseful to train an algorithm to classify the records as positive or negative, and the manual labelling process of it would have taken a long time, a second set of data was required to run my Sentiment Analysis. In the [Data](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data) section more information about it are provided.  
 This data was first [preprocessed](https://github.com/davidellavalle/Social-media-and-Big-Data/blob/main/README.md#data-preprocessing) and cleaned to be then ready for training the deep learning model in form of a Sentiment Analysis.    
 
 <p align="center">
